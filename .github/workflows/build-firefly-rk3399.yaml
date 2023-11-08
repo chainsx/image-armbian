@@ -32,7 +32,7 @@ jobs:
         BOARD: [firefly-rk3399]
         DISTRO: [armbian]
         FLAVOR: [ubuntu]
-        BRANCH: [legacy]
+        BRANCH: [current]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
