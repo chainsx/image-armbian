@@ -1,4 +1,4 @@
-name: Build
+name: Build-firefly-rk3399
 on:
   workflow_dispatch:
 
