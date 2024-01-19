@@ -1,4 +1,4 @@
-name: Build-phytiumpi
+name: Build-phytiumpi-xfce
 on:
   workflow_dispatch:
 
