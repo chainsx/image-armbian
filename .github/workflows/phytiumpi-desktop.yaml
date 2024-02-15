@@ -1,4 +1,4 @@
-name: Build-phytiumpi-xfce
+name: Build-phytiumpi-desktop
 on:
   workflow_dispatch:
 
@@ -37,7 +37,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Upload Armbian image
-        uses: chainsx/armbian-compile-action@phytiumpi-xfce
+        uses: chainsx/armbian-compile-action@phytiumpi-desktop
         if: matrix.DISTRO == 'armbian'
         with:
           branch: ${{ matrix.BRANCH }}
