@@ -8,6 +8,3 @@ apt-get clean
 
 update-alternatives --set iptables /usr/sbin/iptables-legacy
 update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
-
-rm -rf /boot/dtb
-cp -r /boot/dtb* /boot/dtb
