@@ -1,4 +1,4 @@
-name: Build-lm4b
+name: Build-avaota-a1
 on:
   workflow_dispatch:
 
