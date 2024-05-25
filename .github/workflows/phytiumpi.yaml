@@ -37,7 +37,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Upload Armbian image
-        uses: chainsx/armbian-compile-action@phytiumpi
+        uses: chainsx/armbian-compile-action@chainsx-build-cli
         if: matrix.DISTRO == 'armbian'
         with:
           branch: ${{ matrix.BRANCH }}
