@@ -29,7 +29,7 @@ jobs:
     needs: prepare_release
     strategy:
       matrix:
-        BOARD: [licheepi-4b]
+        BOARD: [longanpi-4b]
         DISTRO: [armbian]
         FLAVOR: [ubuntu]
         BRANCH: [legacy]
