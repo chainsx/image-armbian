@@ -1,4 +1,4 @@
-name: Build-m68s-vendor
+name: Build-m68s-legacy
 on:
   workflow_dispatch:
 
@@ -32,7 +32,7 @@ jobs:
         BOARD: [mrkaio-m68s]
         DISTRO: [armbian]
         FLAVOR: [ubuntu]
-        BRANCH: [vendor]
+        BRANCH: [legacy]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
