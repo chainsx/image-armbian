@@ -32,7 +32,7 @@ jobs:
         BOARD: [tspi-linux]
         DISTRO: [armbian]
         FLAVOR: [ubuntu]
-        BRANCH: [stable]
+        BRANCH: [legacy]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
