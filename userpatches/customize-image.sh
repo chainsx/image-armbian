@@ -2,6 +2,7 @@ apt-get update && apt-get install software-properties-common
 sudo add-apt-repository ppa:liujianfeng1994/rockchip-multimedia
 sudo add-apt-repository ppa:liujianfeng1994/panfork-mesa
 sudo apt install rockchip-multimedia-config mali-g610-firmware libmali-g610-x11 libgl4es -y
+sudo apt install chromium-browser libegl-mesa0 libgbm1 libgl1-mesa-dri libglapi-mesa libglx-mesa0 -y
 
 #update-alternatives --set iptables /usr/sbin/iptables-legacy
 #update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
