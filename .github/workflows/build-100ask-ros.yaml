@@ -1,4 +1,4 @@
-name: Build-tspi
+name: Build-100ask-ros
 on:
   workflow_dispatch:
 
@@ -29,7 +29,7 @@ jobs:
     needs: prepare_release
     strategy:
       matrix:
-        BOARD: [tspi-linux]
+        BOARD: [aa-100ask-ros]
         DISTRO: [armbian]
         FLAVOR: [ubuntu]
         BRANCH: [legacy]
@@ -37,7 +37,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Upload Armbian image
-        uses: chainsx/armbian-compile-action@chainsx-self-cli
+        uses: chainsx/armbian-compile-action@chainsx-build-100ask-ros
         if: matrix.DISTRO == 'armbian'
         with:
           branch: ${{ matrix.BRANCH }}
